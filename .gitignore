@@ -1,0 +1,5 @@
+Thumbs.*
+.vscode/
+
+node_modules/
+publish/

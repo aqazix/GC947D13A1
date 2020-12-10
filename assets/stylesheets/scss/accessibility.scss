@@ -1,0 +1,80 @@
+.contr {
+    header {
+        .navbar,
+        .navbar-buttons,
+        .navbar-content {
+            background-color: black !important;
+            background-image: none !important;
+            color: white !important;
+
+            a {
+                color: limegreen !important;
+            }
+
+            svg {
+                path {
+                    stroke: limegreen !important;
+                }
+            }
+        }
+        .navbar-dropdown,
+        .navbar-item {
+            background-color: black !important;
+            border: none !important;
+        }
+
+        .btn-accessibility,
+        .btn-top {
+            border: 1px solid limegreen;
+            background-color: black !important;
+        }
+    }
+
+    .navbar-accessibility,
+    section,
+    footer {
+        background-color: black !important;
+        background-image: none !important;
+        color: white !important;
+
+        a {
+            color: limegreen !important;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            color: yellow !important;
+        }
+
+        .accordion {
+            background-color: black !important;
+        }
+
+        .btn-pdf {
+            border: 1px solid limegreen;
+            background-color: black !important;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contr {
+        header {
+            .navbar,
+            .navbar-buttons {
+                a {
+                    border: none !important;
+                }
+            }
+        }
+
+        footer {
+            .accordion {
+                border: 1px solid limegreen !important;
+            }
+        }
+    }
+}

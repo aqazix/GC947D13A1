@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="author" content="Unoeste" />
+    <meta name="generator" content="Unoeste" />
+    <meta name="keywords" content="Unoeste | Educação à distância." />
+
+    <!-- Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Unoeste" />
+    <meta property="og:site_name" content="Unoeste" />
+    <meta property="og:url" content="http://unoeste.br/" />
+    <meta property="og:image" content="assets\media\others\share.jpg" />
+    <meta property="og:description" content="Unoeste" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="450" />
+
+    <!-- Favicon -->
+    <link href="assets/media/icons/unoeste/512x512.png" rel="shortcut icon" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/media/icons/unoeste/192x192.png" type="image/png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/luxonauta/luxa@1.0/dist/compressed/luxa.min.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="assets/stylesheets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aqazix/printElements@latest/dist/printElements.min.css" media="print">
+
+    <!-- Latest version of HandTalk -->
+    <script id="scriptHT" type="text/javascript" src="https://plugin.handtalk.me/web/latest/handtalk.min.js" crossorigin="anonymous" async></script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120454823-1" crossorigin="anonymous"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag("js", new Date());
+        gtag("config", "UA-120454823-1");
+    </script>
+
+    <title>Unoeste - Design de Moda</title>
+</head>
+
+<body>
+    <!-- Logo opening animation -->
+    <div class="opening-animation is-active">
+        <div class="content-opening lx-container-85">
+            <img class="logo-home" src="assets/media/logos/logo-white.svg" alt="Unoeste">
+            <div class="progress-bar">
+                <div id="op-status" class="bar-status"></div>
+            </div> 
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="lx-container-80 navbar-container">
+                    <div class="navbar-buttons">
+                        <div class="navbar-item">
+                            <a class="btn-accessibility">
+                                <div class="icon-settings"></div>
+                            </a>
+                        </div>
+                        <div class="navbar-item">
+                            <a class="btn-menu">
+                                <div class="icon-menu"></div>
+                            </a>
+                        </div>
+                        <div class="navbar-item">
+                            <div class="top-action">
+                                <a class="btn-problem" id="btn-problem" title="Relate um problema" data-option="content-problem">
+                                    <div class="icon-problem">
+                                        <?xml version="1.0" encoding="utf-8"?>
+                                        <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 24 24" width="24" height="24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                            <circle class="st0" cx="12" cy="12" r="10"/>
+                                            <line class="st0" x1="12" y1="8" x2="12" y2="12"/>
+                                            <line class="st0" x1="12" y1="16" x2="12" y2="16"/>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar-item">
+                            <div class="bottom-action">
+                                <a class="btn-top">
+                                    <div class="icon-arrow"></div> 
+                                </a>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="navbar-content">
+                        <div class="navbar-brand">
+                            <div class="brand">
+                                <a href="http://www.unoeste.br/ava" target="_blank" rel="noopener noreferrer"><img src="assets/media/logos/logo-green.svg" alt="Unoeste"></a>
+                            </div>
+                        </div>
+                        <div class="navbar-menu">
+                            <div class="navbar-items">
+                                <ul>
+                                    <li class="navbar-item" data-target="anchor-beginning"><a>Início</a></li>
+                                    <li class="navbar-item" data-target="anchor-01"><a>AutoCAD</a></li>
+                                    <li class="navbar-item" data-target="anchor-02"><a>Medidas</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="navbar-item has-dropdown">
+                                        <a class="navbar-link">Finalização</a>
+                                        <ul class="navbar-dropdown">
+                                            <li class="navbar-item" data-target="anchor-activities"><a>Atividades</a>
+                                            </li>
+                                            <li class="navbar-item" data-target="anchor-conclusion"><a>Conclusão</a>
+                                            </li>
+                                            <li class="navbar-item" data-target="anchor-references"><a>Referências</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="navbar-accessibility">
+                        <div class="navbar-brand">
+                            <div class="brand">
+                                <a href="http://www.unoeste.br/ava" target="_blank" rel="noopener noreferrer"><img src="assets/media/logos/logo-green.svg" alt="Unoeste"></a>
+                            </div>
+                        </div>
+                        <div class="accessibility">
+                            <p class="title">Acessibilidade</p>
+                            <a id="handtalk-btn" class="toggle-btn has-margin">
+                                <div class="icon">
+                                    <img src="assets/media/icons/handtalk.svg" alt="HandTalk">
+                                </div>
+                                <p>Hand Talk</p>
+                            </a>
+                            <a id="contrast-btn" class="toggle-btn has-margin">
+                                <div class="icon">
+                                    <img src="assets/media/icons/contrast.svg" alt="Contrast">
+                                </div>
+                                <p>Contraste</p>
+                            </a>
+                            <p class="title">Tamanho da Fonte</p>
+                            <div class="btn-wrapper">
+                                <a id="decrease-btn" class="toggle-btn">
+                                    <div class="icon only">
+                                        <img src="assets/media/icons/decrease-letter.svg" alt="Decrease">
+                                    </div>
+                                </a>
+                                <a id="increase-btn" class="toggle-btn">
+                                    <div class="icon only">
+                                        <img src="assets/media/icons/increase-letter.svg" alt="Increase">
+                                    </div>
+                                </a>
+                            </div>
+                            <hr>
+                            <p class="title">Download do PDF</p>
+                            <a id="download-btn" class="lx-btn toggle-btn">
+                                <p class="only">Download</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar-problem" id="problem">
+                        <div class="problem-background">
+                            <div class="navbar-brand">
+                                <div class="brand">
+                                    <a href="http://www.unoeste.br/ava" target="_blank" rel="noreferrer noopener"><img src="assets/media/logos/logo-green.svg" alt="Unoeste"></a>
+                                </div>
+                            </div>
+                            <div class="problem">
+                                <div class="modal-header">
+                                    <a class="btn-close"><img src="assets/media/icons/x-icon.svg" alt=""></a>
+                                </div>
+                                <div class="modal-problem">
+                                    <div class="content" data-content="content-problem">
+                                        <div id="successMessage">
+                                            <p>Mensagem enviada com sucesso.</p>
+                                        </div>
+                                        <div id="errorMessage">
+                                            <p>Ocorreu um erro ao enviar a mensagem. Por favor, tente novamente mais tarde.</p>
+                                        </div>
+                                        <div class="lx-text choose">
+                                            <h2>
+                                                Relate um Problema
+                                            </h2>
+
+                                            <p>
+                                                A sua contribuição é muito importante para nós. Se você deseja relatar um problema ou sugerir alguma correção, selecione uma das opções a seguir. Lembre-se de que quanto mais informações conseguir indicar, mais rápido poderemos resolver. Obrigado pela participação!
+                                            </p>
+                                            <button class="contentProblem">Dúvida com o Conteúdo</button>
+                                            <button class="layoutProblem">Problema Técnico</button>
+                                            <div class="suportProblem"><a href="https://api.whatsapp.com/send?phone=+5518991057389&text=Oi,%20estou%20com%20problemas!" target="_blank">Fale com o suporte</a></div>
+                                        </div>
+                                        <div id="contentProblem">
+                                            <h2>Dúvida com o Conteúdo</h2>
+                                            <form>
+                                                <div class="control">
+                                                    <label for="name-content">Nome</label>
+                                                    <input type="text" name="name" id="name-content" placeholder="Insira o seu nome." class="name">
+                                                </div>
+                                                <div class="control">
+                                                    <label for="email-content">E-mail</label>
+                                                    <input type="email" name="email" id="email-content" placeholder="Insira o seu e-mail." class="email">
+                                                </div>
+                                                <div class="control">
+                                                    <label for="message-content">Dúvida</label>
+                                                    <textarea name="message" id="message-content" cols="30" rows="3" maxlength="500" placeholder="Descreva sua dúvida." class="message"></textarea>
+                                                </div>
+                                                <div class="control">
+                                                    <button type="button" class="btnSubmit">Enviar</button>
+                                                </div>
+                                                <input type="hidden" name="honeypot" class="honeypot">
+                                                <input type="hidden" name="subject" class="subject" value="GC947D13A1 - Dúvida com o Conteúdo">
+                                            </form>
+                                        </div>
+                                        <div id="layoutProblem">
+                                            <h2>Problema Técnico</h2>
+                                            <form>
+                                                <div class="control">
+                                                    <label for="name-layout">Nome</label>
+                                                    <input type="text" name="name" id="name-layout" placeholder="Insira o seu nome" class="name">
+                                                </div>
+                                                <div class="control">
+                                                    <label for="email-layout">E-mail</label>
+                                                    <input type="email" name="email" id="email-layout" placeholder="Insira o seu e-mail" class="email">
+                                                </div>
+                                                <div class="control">
+                                                    <label for="message-layout">Problema</label>
+                                                    <textarea class="message" name="message" id="message-layout" cols="30" rows="3" placeholder="Descreva o seu problema" maxlength="500"></textarea>
+                                                </div>
+                                                <div class="control">
+                                                    <button type="button" class="btnSubmit">Enviar</button>
+                                                </div>
+                                                <input class="honeypot" type="hidden" name="honeypot">
+                                                <input type="hidden" name="subject" class="subject" value="GC947D13A1 - Problema Técnico" class="subject">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <svg class="modal-svg-problem" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                    preserveAspectRatio="none">
+                                    <rect x="0" y="0" fill="none" width="100%" height="100%" rx="3" ry="3"></rect>
+                                </svg>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main class="anchor-beginning">
+        <section class="sec-01">
+            <div class="background">
+                <div class="lx-container-80 is-desktop">
+                    <div class="lx-row margin-bottom">
+                        <div class="lx-column is-8 is-text-centered">
+                            <div class="itens_inner" id="section-1-1">
+                                <div class="itens_layer layer" data-depth="1">
+                                    <img src="assets/media/details/section-1-1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lx-row is-start is-vend">
+                        <div class="lx-column is-1 is-text-centered">
+                            <img src="assets/media/details/section-1-2.png" alt="">
+                        </div>
+
+                        <div class="lx-column is-1"></div>
+
+                        <div class="lx-column is-8 is-text-centered">
+                            <div class="itens_inner" id="section-1-2">
+                                <div class="itens_layer layer" data-depth="1">
+                                    <h2 class="is-not-bold not-print">
+                                        Introdução a Modelagem Computadorizada com
+                                    </h2>
+        
+                                    <h1 class="is-title not-print">
+                                        AutoCAD
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lx-column is-1 is-text-centered">
+                            <img src="assets/media/details/section-1-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lx-container-80 is-responsive">
+                    <div class="lx-row margin-bottom">
+                        <div class="lx-column is-8 is-text-centered">
+                            <img src="assets/media/details/section-1-1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="lx-row">
+                        <div class="lx-column is-8 is-text-centered">
+                            <h2 class="is-not-bold">
+                                Introdução a Modelagem Computadorizada com
+                            </h2>
+
+                            <h1 class="is-title">
+                                AutoCAD
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-02">
+            <div class="background">
+                <div class="lx-container-80">
+                    <div class="lx-row is-vstart">
+                        <div class="lx-column is-desktop">
+                            <div class="strip"></div>
+                        </div>
+
+                        <div class="lx-column is-8 is-text-centered">
+                            <h2>
+                                Seja bem-vindo!
+                            </h2>
+
+                            <p>
+                                Atualmente, vivemos uma era de inúmeros avanços tecnológicos nas mais diversas áreas e não seria diferente no campo da moda, que proporciona diversas ferramentas que minimizam a margem de erro no final de uma produção, ou mesmo o excesso de descarte de tecido na hora do corte, esses são alguns dos atributos possíveis que a Modelagem Computadorizada pode oferecer.<br/><br/>
+                                Nesta aula, você vai aprender o que é a ferramenta CAD e qual seu papel na modelagem do vestuário, compreendendo todos os parâmetros para a execução de uma boa modelagem.<br/><br/>
+                                Bons estudos!
+                            </p>
+                        </div>
+                        
+                        <div class="lx-column is-desktop">
+                            <div class="strip"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-03">
+            <div class="grid">
+                <div class="lx-container-100">
+                    <div class="lx-row is-stretch anchor-01">
+                        <div class="lx-column is-text-centered">
+                            <div class="box">
+                                <img src="assets/media/details/section-3-1.png" alt="">
+                            </div>
+                        </div>
+    
+                        <div class="lx-column is-text-centered">
+                            <div class="box">
+                                <img src="assets/media/details/section-3-2.png" alt="">
+                            </div>
+                        </div>
+    
+                        <div class="lx-column is-text-centered">
+                            <div class="box">
+                                <img src="assets/media/details/section-3-3.png" alt="">
+                            </div>
+                        </div>
+    
+                        <div class="lx-column is-text-centered">
+                            <div class="box">
+                                <h1 class="is-title">
+                                    Auto<span class="is-desktop"><br/></span>
+                                    CAD
+                                </h1>
+                            </div>
+                        </div>
+    
+                        <div class="lx-column is-text-centered">
+                            <div class="box">
+                                <img src="assets/media/details/section-3-4.png" alt="">
+                            </div>
+                        </div>
+    
+                        <div class="lx-column is-text-centered">
+                            <div class="box">
+                                <img src="assets/media/details/section-3-5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lx-container-80">
+                    <div class="lx-row is-end">
+                        <div class="lx-column is-8">
+                            <h4>
+                                Com o AutoCAD fazendo parte do processo de produção podemos contar com muitas facilidades que vão desde a modelagem até a fase de corte antes da costura.
+                            </h4>
+
+                            <p>
+                                Para a execução da modelagem computadorizada contamos com ferramentas que dão precisão na hora de inserir as medidas e/ou ângulos facilitando na hora de traçar o molde, inclusive no momento da <b>graduação</b>, minimizando possíveis erros que ocorrem geralmente na graduação manual.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="lx-row">
+                        <div class="lx-column is-8 is-text-centered">
+                            <h1 class="is-title is-uppercase not-print">
+                                Graduação
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lx-container-80">
+                <div class="lx-row is-start is-vend margin-top">
+                    <div class="lx-column is-1 is-desktop"></div>
+
+                    <div class="lx-column is-1 is-text-centered is-desktop">
+                        <img src="assets/media/details/section-3-7.png" alt="">
+                    </div>
+
+                    <div class="lx-column is-8 is-text-centered">
+                        <div class="itens_inner is-desktop" id="section-3">
+                            <div class="itens_layer layer" data-depth="0.5">
+                                <img src="assets/media/details/section-3-6.png" alt="">
+                            </div>
+                        </div>
+
+                        <img src="assets/media/details/section-3-6.png" alt="" class="is-responsive">
+                    </div>
+                </div>
+
+                <div class="lx-row is-end is-vstart">
+                    <div class="lx-column is-8">
+                        <h3 class="is-uppercase">
+                            Graduação:
+                        </h3>
+
+                        <p>
+                            Aumento ou diminuição de tamanhos de uma modelagem, por exemplo: fazer uma grade do 36 ao 50.
+                        </p>
+                    </div>
+
+                    <div class="lx-column is-2 is-text-centered is-desktop">
+                        <img src="assets/media/details/section-3-8.png" alt="">
+                    </div>
+                </div>
+
+                <div class="lx-row">
+                    <div class="lx-column is-8">
+                        <p>
+                            Inclusive esse é um ponto muito legal, pois a modelagem computadorizada se torna muito mais fácil, até mesmo no momento do erro, pois conseguimos visualizar e corrigir os mesmos com a facilidade de um “clique”.<br/><br/>
+                            Outra particularidade de usar o AutoCAD é poder verificar as peças para encaixe, podendo unir muitas peças e ajustando conforme necessário, aproveitando ao máximo a metragem do tecido ao serem encaminhadas para corte, que aliás é outro benefício que, ao contrário da forma feita manualmente, proporciona exatidão e rapidez no corte.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="lx-row is-end top-01">
+                    <div class="lx-column is-2 is-text-centered">
+                        <img src="assets/media/details/section-attention.png" alt="">
+                    </div>
+
+                    <div class="lx-column is-6">
+                        <div class="box-attention">
+                            <h4 class="is-not-bold">
+                                <b>Atenção</b><br/>
+                                CAD não é AutoCAD, é justamente o contrário, o AutoCAD é um software CAD. Ou seja, AutoCad é a “marca” ou nome do produto e CAD é um software. (ADITIVOCAD, 2020).
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-04">
+            <div class="lx-container-80">
+                <div class="lx-row">
+                    <div class="lx-column is-6">
+                        <div class="strip"></div>
+                    </div>
+                </div>
+
+                <div class="lx-row top-01">
+                    <div class="lx-column is-3 is-text-centered">
+                        <img src="assets/media/details/section-stop.png" alt="">
+                    </div>
+
+                    <div class="lx-column is-6">
+                        <h4>
+                            Parada obrigatória
+                        </h4>
+
+                        <p>
+                            Aprofunde o seu conhecimento, realize a leitura do tópico <a href="https://integrada.minhabiblioteca.com.br/#/books/9788536520599/" target="_blank"><b><u>2.2.1 A alta-costura contemporânea</u></b></a>, do livro Costura industrial: métodos e processos de modelagem para produção de vestuário, de Alvanir de Oliveira e Laura Carolina Oliveira Nóbrega.<br/><br/>
+                            Para complementar, sugiro que conheça o artigo <a href="https://revistas.unipar.br/index.php/empresarial/article/view/2679" target="_blank"><b><u>Modelagem plana e tridimensional – moulage – na indústria do vestuário</u></b></a>, de Maria Cleuza Borbas e Rosana Ruiz Bruscagim. Boa leitura!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-05">
+            <div class="lx-container-80">
+                <div class="lx-row">
+                    <div class="lx-column is-text-centered">
+                        <h1 class="is-title">
+                            Afinal, o que é CAD?
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="background">
+                <div class="lx-container-80">
+                    <div class="lx-row is-stretch">
+                        <div class="lx-column is-6 is-text-centered is-paddingless">
+                            <img src="assets/media/details/section-5-1.png" alt="">
+                        </div>
+
+                        <div class="lx-column is-paddingless margin-right">
+                            <div class="box">
+                                <div class="lx-row is-start">
+                                    <div class="lx-column is-6">
+                                        <img src="assets/media/details/section-5-2.png" alt="">
+
+                                        <p>
+                                            CAD (<i>Computer Aided Design</i>), ou Projeto Auxiliado por Computador, é um software de computador que pode produzir arquivos em 2D e 3D.<br/><br/>
+                                            No início, essa ferramenta era muito utilizada nas áreas de engenharia e arquitetura para projetos, principalmente em 3D, com o passar do tempo começou a ser aplicada no design de moda e no processo de produção do vestuário, desenvolvendo a modelagem plana computadorizada de peças de roupas (2D).<br/><br/>
+                                            Os softwares mais conhecidos no mercado são: AutoCAD e o Audaces, onde o primeiro é mais acessível e comum no contexto industrial, e o segundo devido seu custo elevado se torna um software muito exclusivo e inviável.<br/><br/>
+                                            Com o AutoCAD usaremos basicamente ferramentas destinadas a construção plana (2D) e geométrica, ou seja, a modelagem plana, traçando e aplicando seus conhecimentos prévios de modelagem, só que agora com ferramentas que irão facilitar e melhorar a qualidade do seu trabalho.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-06">
+            <div class="background">
+                <div class="lx-container-80">
+                    <div class="lx-row is-stretch">
+                        <div class="lx-column is-paddingless margin-left">
+                            <img src="assets/media/details/section-6-1.png" alt="">
+                        </div>
+    
+                        <div class="lx-column is-6 is-text-centered is-paddingless">
+                            <div class="lx-column is-12">
+                                <img src="assets/media/details/section-6-2.png" alt="">
+    
+                                <h2>
+                                    CAD na modelagem de vestuário
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="lx-container-80">
+                    <div class="lx-row is-start is-vend">
+                        <div class="lx-column is-2 is-text-centered is-desktop bottom">
+                            <img src="assets/media/details/section-6-4.png" alt="">
+                        </div>
+
+                        <div class="lx-column is-8">
+                            <p>
+                                Logo no início dos anos 80, alguns fornecedores de CAD/CAM perceberam uma lacuna onde essa tecnologia poderia ser aplicada com êxito: no setor de confecção de vestuário (BEDUSCHI, 2013).<br/><br/>
+                                Sabemos que o mercado da moda é um dos que mais crescem no mundo todo e para acompanhar esse crescimento frenético precisamos evoluir quanto a excussão dos processos de produção, inovando e nos adaptando.<br/><br/>
+                                Ainda assim, Borbas e Bruscagim (2007) afirmam que esses novos softwares não substituem a mão de obra do modelista, mas sim trabalha em conjunto para melhor eficiência e eficácia na elaboração da modelagem, desde evitar desperdício de tecidos com o excesso de descarte até uma melhor adaptação de uma modelagem a diferentes medidas sem que haja desperdícios, como o de papel por exemplo,  utilizado na modelagem plana manual.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="lx-row is-end is-vstart top-01">
+                        <div class="lx-column is-8 is-paddingless">
+                            <div class="lx-column is-12 is-text-centered">
+                                <img src="assets/media/details/section-6-3.png" alt="">
+                            </div>
+
+                            <div class="lx-column is-12">
+                                <h3>
+                                    Veja ainda algumas vantagens ao trabalhar com softwares para modelagem de vestuário.
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="lx-column is-2 is-text-centered is-desktop">
+                            <img src="assets/media/details/section-6-5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-07">
+            <div class="grid">
+                <div class="lx-container-80">
+                    <div class="lx-row is-start">
+                        <img src="assets/media/details/section-7-1.png" alt="">
+                    </div>
+                    
+                    <div class="lx-row is-stretch margin-top">
+                        <div class="lx-column is-3 is-text-centered">
+                            <div class="box">
+                                <div class="lx-column is-12 is-paddingless icon">
+                                    <img src="assets/media/details/section-7-2.png" alt="">
+                                </div>
+                                
+                                <div class="lx-column is-12 is-paddingless image">
+                                    <img src="assets/media/details/section-7-3.png" alt="">
+                                </div>
+
+                                <h4 class="is-not-bold">
+                                    Mais rápido
+                                </h4>
+
+                                <p class="print-text">
+                                    É possível criar, alterar, cortar, aumentar, diminuir, tudo com apenas poucos cliques, além de copiar modelagens facilmente sem ter que começar outra desde o início como seria manualmente. Rapidamente você também pode inserir medidas digitando qualquer valor, dispensando o uso de régua e esquadros.
+                                </p>
+                            </div>
+                                
+                            <svg class="btn-open-modal" data-content-option="content-1" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
+                                <rect x="0" y="0" fill="none" width="100%" height="100%" rx="3" ry="3"></rect>
+                            </svg>
+                        </div>
+
+                        <div class="lx-column is-3 is-text-centered">
+                            <div class="box">
+                                <div class="lx-column is-12 is-paddingless icon">
+                                    <img src="assets/media/details/section-7-2.png" alt="">
+                                </div>
+                                
+                                <div class="lx-column is-12 is-paddingless image">
+                                    <img src="assets/media/details/section-7-4.png" alt="">
+                                </div>
+
+                                <h4 class="is-not-bold">
+                                    Mais preciso
+                                </h4>
+
+                                <p class="print-text">
+                                    Como é possível inserir medidas exatas quando criamos no AutoCAD, se torna mais precisa a modelagem final, minimizando erros ao final do processo de produção.
+                                </p>
+                            </div>
+                                
+                            <svg class="btn-open-modal" data-content-option="content-2" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
+                                <rect x="0" y="0" fill="none" width="100%" height="100%" rx="3" ry="3"></rect>
+                            </svg>
+                        </div>
+
+                        <div class="lx-column is-3 is-text-centered">
+                            <div class="box">
+                                <div class="lx-column is-12 is-paddingless icon">
+                                    <img src="assets/media/details/section-7-2.png" alt="" class="is-right">
+                                </div>
+                                
+                                <div class="lx-column is-12 is-paddingless image">
+                                    <img src="assets/media/details/section-7-5.png" alt="">
+                                </div>
+
+                                <h4 class="is-not-bold">
+                                    Já inclui escalas
+                                </h4>
+
+                                <p class="print-text">
+                                    Imagine poder desenhar estradas em tamanho real! Pois bem, o AutoCAD permite desenvolvermos qualquer coisa em qualquer escala, inclusive escala real, possibilitando a execução de modelagens em tamanho exato do corpo humano.
+                                </p>
+                            </div>
+                                
+                            <svg class="btn-open-modal" data-content-option="content-3" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
+                                <rect x="0" y="0" fill="none" width="100%" height="100%" rx="3" ry="3"></rect>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="lx-row is-stretch">
+                        <div class="lx-column is-3 is-text-centered">
+                            <div class="box">
+                                <div class="lx-column is-12 is-paddingless icon">
+                                    <img src="assets/media/details/section-7-2.png" alt="">
+                                </div>
+                                
+                                <div class="lx-column is-12 is-paddingless image">
+                                    <img src="assets/media/details/section-7-6.png" alt="">
+                                </div>
+
+                                <h4 class="is-not-bold">
+                                    Maior lucratividade
+                                </h4>
+
+                                <p class="print-text">
+                                    A lucratividade aumenta devido a alta produtividade. Fica muito mais fácil e rápido de criar uma modelagem, além de ser mais eficiente e eficaz, minimizando erros e por consequência gastos.
+                                </p>
+                            </div>
+                                
+                            <svg class="btn-open-modal" data-content-option="content-4" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
+                                <rect x="0" y="0" fill="none" width="100%" height="100%" rx="3" ry="3"></rect>
+                            </svg>
+                        </div>
+
+                        <div class="lx-column is-3 is-text-centered">
+                            <div class="box">
+                                <div class="lx-column is-12 is-paddingless icon">
+                                    <img src="assets/media/details/section-7-2.png" alt="">
+                                </div>
+                                
+                                <div class="lx-column is-12 is-paddingless image">
+                                    <img src="assets/media/details/section-7-7.png" alt="">
+                                </div>
+
+                                <h4 class="is-not-bold">
+                                    Não utiliza papéis
+                                </h4>
+
+                                <p class="print-text">
+                                    Todos os materiais descartáveis utilizados na elaboração de uma modelagem manual não são necessários dentro da modelagem computadorizada, como é o caso do papel, evitando desperdícios e descarte.
+                                </p>
+                            </div>
+                                
+                            <svg class="btn-open-modal" data-content-option="content-5" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
+                                <rect x="0" y="0" fill="none" width="100%" height="100%" rx="3" ry="3"></rect>
+                            </svg>
+                        </div>
+
+                        <div class="lx-column is-3 is-text-centered">
+                            <div class="box">
+                                <div class="lx-column is-12 is-paddingless icon">
+                                    <img src="assets/media/details/section-7-2.png" alt="">
+                                </div>
+                                
+                                <div class="lx-column is-12 is-paddingless image">
+                                    <img src="assets/media/details/section-7-8.png" alt="">
+                                </div>
+
+                                <h4 class="is-not-bold">
+                                    Encaixes para corte
+                                </h4>
+
+                                <p class="print-text">
+                                    Com uma visualização panorâmica total do “tecido” podemos organizar melhor as partes de modelagem para corte, aproveitando ao máximo a metragem do tecido, e consequentemente evitando desperdício.
+                                </p>
+                            </div>
+                                
+                            <svg class="btn-open-modal" data-content-option="content-6" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
+                                <rect x="0" y="0" fill="none" width="100%" height="100%" rx="3" ry="3"></rect>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="lx-row is-end is-desktop margin-top">
+                        <img src="assets/media/details/section-7-9.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-09">
+            <div class="grid">
+                <div class="lx-container-80">
+                    <div class="lx-row">
+                        <div class="lx-column is-6">
+                            <div class="strip"></div>
+                        </div>
+                    </div>
+
+                    <div class="lx-row top-01">
+                        <div class="lx-column is-3 is-text-centered">
+                            <img src="assets/media/details/section-stop.png" alt="">
+                        </div>
+
+                        <div class="lx-column is-6">
+                            <h3>
+                                Parada obrigatória
+                            </h3>
+
+                            <p>
+                                Acompanhe o passo a passo da <a href="videos.html" target="_blank"><b><u>videoaula</u></b></a> para iniciar um arquivo no AutoCAD, e aprendermos a utilizar as ferramentas de modelagem. Além disso, você entenderá como configurar as proporções/escala; aprenderá a trabalhar com o comando Linha e suas ferramentas de medida; e por fim, verá a ferramenta Arco – três pontos. Boa aula!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-10 anchor-02">
+            <div class="background">
+                <div class="lx-container-80">
+                    <div class="lx-row is-start">
+                        <h1 class="is-title">
+                            Medidas
+                        </h1>
+
+                        <img src="assets/media/details/section-10-1.png" alt="">
+                    </div>
+
+                    <div class="lx-row is-vend">
+                        <div class="lx-column is-text-centered is-desktop">
+                            <img src="assets/media/details/section-10-2.png" alt="">
+                        </div>
+
+                        <div class="lx-column is-8">
+                            <p>
+                                Como na modelagem plana, também iremos <b>utilizar ¼ das medidas para o molde</b>. Aplicaremos a tabela de medidas disponibilizada pelo Senai, visto que esse é o mais próximo de um padrão que temos hoje no Brasil.
+                            </p>
+
+                            <div class="scrollbar">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Tamanhos</th>
+                                            <th>38</th>
+                                            <th>40</th>
+                                            <th>42</th>
+                                            <th>44</th>
+                                            <th>46</th>
+                                            <th>48</th>
+                                            <th>50</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Busto</td>
+                                            <td>90</td>
+                                            <td>94</td>
+                                            <td>98</td>
+                                            <td>102</td>
+                                            <td>106</td>
+                                            <td>110</td>
+                                            <td>114</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cintura</td>
+                                            <td>68</td>
+                                            <td>72</td>
+                                            <td>76</td>
+                                            <td>80</td>
+                                            <td>84</td>
+                                            <td>88</td>
+                                            <td>92</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Quadril</td>
+                                            <td>96</td>
+                                            <td>100</td>
+                                            <td>104</td>
+                                            <td>108</td>
+                                            <td>112</td>
+                                            <td>116</td>
+                                            <td>120</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Costas</td>
+                                            <td>36</td>
+                                            <td>37</td>
+                                            <td>38</td>
+                                            <td>39</td>
+                                            <td>40</td>
+                                            <td>42</td>
+                                            <td>43</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Altura do corpo</td>
+                                            <td>42</td>
+                                            <td>43</td>
+                                            <td>44</td>
+                                            <td>45</td>
+                                            <td>46</td>
+                                            <td>47</td>
+                                            <td>48</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Comprimento da manga curta</td>
+                                            <td>20</td>
+                                            <td>21</td>
+                                            <td>22</td>
+                                            <td>23</td>
+                                            <td>24</td>
+                                            <td>25</td>
+                                            <td>26</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Altura do quadril</td>
+                                            <td>18</td>
+                                            <td>18,5</td>
+                                            <td>19</td>
+                                            <td>19,5</td>
+                                            <td>20</td>
+                                            <td>20</td>
+                                            <td>20</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Circunferência da barra da manga</td>
+                                            <td>30</td>
+                                            <td>31</td>
+                                            <td>32</td>
+                                            <td>33</td>
+                                            <td>34</td>
+                                            <td>35</td>
+                                            <td>36</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Comprimento da calça</td>
+                                            <td>106</td>
+                                            <td>107</td>
+                                            <td>108</td>
+                                            <td>109</td>
+                                            <td>100</td>
+                                            <td>110</td>
+                                            <td>110</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Altura do gancho</td>
+                                            <td>21</td>
+                                            <td>23</td>
+                                            <td>24</td>
+                                            <td>25</td>
+                                            <td>26</td>
+                                            <td>27</td>
+                                            <td>28</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Largura do joelho</td>
+                                            <td>20,8</td>
+                                            <td>21,4</td>
+                                            <td>22</td>
+                                            <td>22,6</td>
+                                            <td>23,2</td>
+                                            <td>23,8</td>
+                                            <td>24,4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Largura da boca</td>
+                                            <td>20,2</td>
+                                            <td>20,6</td>
+                                            <td>21</td>
+                                            <td>21,4</td>
+                                            <td>21,8</td>
+                                            <td>22,2</td>
+                                            <td>22,6</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <small>
+                                Fonte: Adaptado de SENAI (2014).
+                            </small>
+                        </div>
+
+                        <div class="lx-column">
+                            <div class="strip"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-activities anchor-activities">
+            <div class="lx-container-80">
+                <div class="lx-row">
+                    <div class="lx-column is-5 is-text-right">
+                        <h2>
+                            Atividade de
+                        </h2>
+
+                        <h1>
+                            Autoestudo
+                        </h1>
+                    </div>
+
+                    <div class="lx-column is-5">
+                        <p>
+                            Por meio dela você consegue identificar o conhecimento adquirido nesta aula. Embora não seja avaliativa, esta atividade é de extrema importância para a fixação do conteúdo abordado. Participe!
+                        </p>
+                    </div>
+
+                    <div class="lx-column is-5 is-text-right">
+                        <h2>
+                            Atividade
+                        </h2>
+
+                        <h1>
+                            Avaliativa
+                        </h1>
+                    </div>
+
+                    <div class="lx-column is-5">
+                        <p>
+                            Para obter mais informações sobre ela, acesse a atividade disponível no seu ambiente virtual de aprendizagem Aprender Unoeste. Bom trabalho!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-conclusion anchor-conclusion">
+            <div class="background">
+                <div class="lx-container-80">
+                    <div class="lx-row">
+                        <img src="assets/media/details/section-conclusion.png" alt="">
+
+                        <h2 class="print-text">
+                            Chegamos ao final da nossa aula!
+                        </h2>
+                    </div>
+
+                    <div class="lx-row">
+                        <div class="lx-column is-8 is-text-centered">
+                            <div class="box">
+                                <p>
+                                    Espero que você tenha conseguido entender a importância da modelagem computadorizada para o Design de Moda, e como ele pode ser facilmente manuseado para elaboração de modelagens de vestuário.<br/><br/>
+                                    Até a próxima oportunidade!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-references anchor-references">
+            <div class="background">
+                <div class="lx-container-80">
+                    <div class="lx-row">
+                        <div class="lx-column is-10 is-text-centered">
+                            <h1>
+                                Referências
+                            </h1>
+                        </div>
+                    </div>
+    
+                    <div class="lx-row is-vstart">
+                        <div class="lx-column is-5">
+                            <p>
+                                ADITIVOCAD. <b>Diferenças entre CAD e AutoCAD</b>. 2020. Disponível em: <a href="https://www.aditivocad.com/blog/diferencas-entre-cad-e-autocad/" target="_blank">https://www.aditivocad.com/blog/diferencas-entre-cad-e-autocad/</a>. Acesso em: 15 maio 2020.<br/><br/>
+
+                                BEDUSCHI, D. P. <b>Diretrizes para o ensino de modelagem do vestuário</b>. 2013. 202 f. Dissertação (Mestrado em Ciências) – Universidade de São Paulo, Escola de Artes, Ciências e Humanidades - Têxtil e Moda, São Paulo, 2013.<br/><br/>
+
+                                BORBAS, M. C.; BRUSCAGIM, R. R. Modelagem plana e tridimensional – moulage – na indústria do vestuário. <b>Rev. Ciên. Empresariais da UNIPAR</b>, Umuarama, v. 8, n. 1 e 2, p. 155-167, jan./dez. 2007.
+                            </p>
+                        </div>
+    
+                        <div class="lx-column is-5">
+                            <p>
+                                OLIVEIRA, A.; NÓBREGA, L. C. O. <b>Costura industrial</b>: métodos e processos de modelagem para produção de vestuário. São Paulo: Érica, 2015.<br/><br/>
+
+                                SENAI. Serviço Nacional de Aprendizagem Industrial. <b>Modelista de roupas</b>. São Paulo: SENAI-SP Editora, 2014.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal-container">
+        <div class="modal-background">
+            <div class="modal">
+                <div class="modal-header">
+                    <a class="btn-close-modal"><img src="assets/media/icons/x-icon.svg" alt=""></a>
+                </div>
+                <div class="modal-content">
+                    <div class="content content-1" data-content="content-1">
+                        <h3>
+                            Mais rápido
+                        </h3>
+                        
+                        <p>
+                            É possível criar, alterar, cortar, aumentar, diminuir, tudo com apenas poucos cliques, além de copiar modelagens facilmente sem ter que começar outra desde o início como seria manualmente. Rapidamente você também pode inserir medidas digitando qualquer valor, dispensando o uso de régua e esquadros.
+                        </p>
+                    </div>
+                    
+                    <div class="content content-2" data-content="content-2">
+                        <h3>
+                            Mais preciso
+                        </h3>
+
+                        <p>
+                            Como é possível inserir medidas exatas quando criamos no AutoCAD, se torna mais precisa a modelagem final, minimizando erros ao final do processo de produção.
+                        </p>
+                    </div>
+                    
+                    <div class="content content-3" data-content="content-3">
+                        <h3>
+                            Já inclui escalas
+                        </h3>
+                        
+                        <p>
+                            Imagine poder desenhar estradas em tamanho real! Pois bem, o AutoCAD permite desenvolvermos qualquer coisa em qualquer escala, inclusive escala real, possibilitando a execução de modelagens em tamanho exato do corpo humano.
+                        </p>
+                    </div>
+                    
+                    <div class="content content-4" data-content="content-4">
+                        <h3>
+                            Maior lucratividade
+                        </h3>
+                        
+                        <p>
+                            A lucratividade aumenta devido a alta produtividade. Fica muito mais fácil e rápido de criar uma modelagem, além de ser mais eficiente e eficaz, minimizando erros e por consequência gastos.
+                        </p>
+                    </div>
+                    
+                    <div class="content content-5" data-content="content-5">
+                        <h3>
+                            Não utiliza papéis
+                        </h3>
+                        
+                        <p>
+                            Todos os materiais descartáveis utilizados na elaboração de uma modelagem manual não são necessários dentro da modelagem computadorizada, como é o caso do papel, evitando desperdícios e descarte.
+                        </p>
+                    </div>
+                    
+                    <div class="content content-6" data-content="content-6">
+                        <h3>
+                            Encaixes para corte
+                        </h3>
+                        
+                        <p>
+                            Com uma visualização panorâmica total do “tecido” podemos organizar melhor as partes de modelagem para corte, aproveitando ao máximo a metragem do tecido, e consequentemente evitando desperdício. Fica mais fácil para fazer encaixes para corte.
+                        </p>
+                    </div>
+                    
+                    <div class="content" data-content="content-problem">
+                        <div id="successMessage">
+                            <p>Mensagem enviada com sucesso.</p>
+                        </div>
+                        <div id="errorMessage">
+                            <p>Ocorreu um erro ao enviar a mensagem. Por favor, tente novamente mais tarde.</p>
+                        </div>
+                        <div class="lx-text choose">
+                            <p>
+                                A sua contribuição é muito importante para nós. Se você deseja relatar um problema ou sugerir alguma correção, selecione uma das opções a seguir. Lembre-se de que quanto mais informações conseguir indicar, mais rápido poderemos resolver. Obrigado pela participação!
+                            </p>
+                            <button class="contentProblem">Dúvida com o Conteúdo</button>
+                            <button class="layoutProblem">Problema Técnico</button>
+                            <div class="suportProblem"><a href="https://api.whatsapp.com/send?phone=+5518991057389&text=Oi,%20estou%20com%20problemas!" target="_blank">Fale com o suporte</a></div>
+                        </div>
+                        <div id="contentProblem">
+                            <h2>Dúvida com o Conteúdo</h2>
+                            <form>
+                                <div class="control">
+                                    <label for="name-content">Nome</label>
+                                    <input type="text" name="name" id="name-content" placeholder="Insira o seu nome." class="name">
+                                </div>
+                                <div class="control">
+                                    <label for="email-content">E-mail</label>
+                                    <input type="email" name="email" id="email-content" placeholder="Insira o seu e-mail." class="email">
+                                </div>
+                                <div class="control">
+                                    <label for="message-content">Dúvida</label>
+                                    <textarea name="message" id="message-content" cols="30" rows="3" maxlength="500" placeholder="Descreva sua dúvida." class="message"></textarea>
+                                </div>
+                                <div class="control">
+                                    <button type="button" class="btnSubmit">Enviar</button>
+                                </div>
+                                <input type="hidden" name="honeypot" class="honeypot">
+                                <input type="hidden" name="subject" class="subject" value="GC947D13A1 - Dúvida com o Conteúdo">
+                            </form>
+                        </div>
+                        <div id="layoutProblem">
+                            <h2>Problema Técnico</h2>
+                            <form>
+                                <div class="control">
+                                    <label for="name-layout">Nome</label>
+                                    <input type="text" name="name" id="name-layout" placeholder="Insira o seu nome" class="name">
+                                </div>
+                                <div class="control">
+                                    <label for="email-layout">E-mail</label>
+                                    <input type="email" name="email" id="email-layout" placeholder="Insira o seu e-mail" class="email">
+                                </div>
+                                <div class="control">
+                                    <label for="message-layout">Problema</label>
+                                    <textarea class="message" name="message" id="message-layout" cols="30" rows="3" placeholder="Descreva o seu problema" maxlength="500"></textarea>
+                                </div>
+                                <div class="control">
+                                    <button type="button" class="btnSubmit">Enviar</button>
+                                </div>
+                                <input class="honeypot" type="hidden" name="honeypot">
+                                <input type="hidden" name="subject" class="subject" value="GC947D13A1 - Problema Técnico" class="subject">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                    preserveAspectRatio="none">
+                    <rect x="0" y="0" fill="none" width="100%" height="100%" rx="3" ry="3"></rect>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- Credits -->
+    <footer>
+        <div class="lx-container-80 is-flex container-footer">
+            <div class="lx-row logo-footer">
+                <img src="assets/media/logos/logo-footer.png" alt="Unoeste | Educação à distância.">
+            </div>
+            <div class="lx-row">
+                <div class="lx-column">
+                    <div class="lx-column is-12">
+                        <div class="lx-row elaboracao">
+                            <h1 class="lx-title">Elaboração</h1>
+                            <a class="lx-subtitle author" href="http://lattes.cnpq.br/8230441788985854" target="_blank" rel="noopener noreferrer">Jéssica de Oliveira</a>
+                        </div>
+                    </div>
+                    <div class="lx-column is-12">
+                        <a class="accordion">Coordenação</a>
+                        <div class="panel">
+                            <div class="lx-row">
+                                <h1 class="lx-title">Coordenadora Geral</h1>
+                                <h2 class="lx-subtitle">Sonia Sanae Sato</h2>
+                            </div>
+                            <div class="lx-row">
+                                <h1 class="lx-title">Coordenadora Acadêmica</h1>
+                                <h2 class="lx-subtitle">Dayene M. de Carvalho Sano</h2>
+                            </div>
+                            <div class="lx-row">
+                                <h1 class="lx-title">Coordenador de Tecnologia e Produção de
+                                    Materiais</h1>
+                                <h2 class="lx-subtitle">Mário Augusto Pazoti</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lx-column is-6">
+                    <a class="accordion">Produção</a>
+                    <div class="panel">
+                        <div class="lx-column is-6">
+                            <div class="lx-row">
+                                <h1 class="lx-title">Design Educacional</h1>
+                                <h2 class="lx-subtitle">Janiele de Souza Santos</h2>
+                                <h2 class="lx-subtitle">Márcia Debieux</h2>
+                            </div>
+                            <div class="lx-row">
+                                <h1 class="lx-title">Design Gráfico</h1>
+                                <h2 class="lx-subtitle">Ana Donaton</h2>
+                                <h2 class="lx-subtitle">Kevin Silva</h2>
+                            </div>
+                            <div class="lx-row">
+                                <h1 class="lx-title">Web Design</h1>
+                                <h2 class="lx-subtitle">Aline Takehana</h2>
+                                <h2 class="lx-subtitle">Lucas de França</h2>
+                                <h2 class="lx-subtitle">Pedro Renato Rodrigues de Sousa</h2>
+                                <h2 class="lx-subtitle">Priscyla Yumiko Tanoue Tarumoto</h2>
+                            </div>
+                        </div>
+                        <div class="lx-column is-6">
+                            <div class="lx-row">
+                                <h1 class="lx-title">Produção de Vídeo</h1>
+                                <h2 class="lx-subtitle">Caroline Souza Lima</h2>
+                                <h2 class="lx-subtitle">Rita Miranda da Costa</h2>
+                                <h2 class="lx-subtitle">Wellington Erran Motta</h2>
+                            </div>
+                            <div class="lx-row">
+                                <h1 class="lx-title">Revisão Geral</h1>
+                                <h2 class="lx-subtitle">Edwiges Inácia de Lima</h2>
+                                <h2 class="lx-subtitle">Renata Rodrigues</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lx-column">
+                    <a class="accordion">Suporte</a>
+                    <div class="panel">
+                        <div class="lx-row">
+                            <h1 class="lx-title">Suporte Tecnológico</h1>
+                            <h2 class="lx-subtitle">Heitor Zangirolami Soares</h2>
+                            <h2 class="lx-subtitle">Hugo Gonçalves Nihy</h2>
+                            <h2 class="lx-subtitle">Luciana da Mata Crema</h2>
+                            <h2 class="lx-subtitle">Maycon Douglas Cezari Vergilio</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fonts -->
+    <!-- Scripts -->
+    <script id="scriptHTUnoeste" data-autoshow="false" data-maxtextsize="8000" src="assets/libs/handtalk/handtalk.js" crossorigin="anonymous" async></script>
+    <script src="https://cdn.jsdelivr.net/gh/aqazix/printElements@latest/printElements.min.js"></script>
+    <script src="assets/libs/lottie/lottie.min.js" crossorigin="anonymous"></script>
+    <script src="assets/libs/parallax/parallax.min.js"></script>
+
+    <!-- Custom script -->
+    <script src="assets/scripts/scripts.js" crossorigin="anonymous"></script>
+    <script src="assets/scripts/custom.js"></script>
+</body>
+
+</html>

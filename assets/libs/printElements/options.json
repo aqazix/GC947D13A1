@@ -1,0 +1,21 @@
+{
+    "targets":[
+        "index.html"
+    ],
+    "tags":[
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "p",
+        "ul",
+        "small",
+        "table",
+        "img.print",
+        "svg.print",
+        "figcaption"
+    ],
+    "willNotPrint":".not-print"
+}
